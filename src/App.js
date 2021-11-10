@@ -1,9 +1,10 @@
 import './App.css';
+import ExpenseItem from './components/ExpenseItem';
 
 function App() {
   return (
     <div>
-     Hello Browser , react here removing boilerplate code
+    <ExpenseItem/>
     </div>
   );
 }
